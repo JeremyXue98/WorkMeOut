@@ -1,3 +1,5 @@
 ## Synopsis
 
+Hello Sebastian!
+
 The main use of local storage in the application is for the creation of routines. A routine consists of weeks, and also consists of days within a week, which in each can have multiple exercises with many different variations. The complex nature of routine demanded for a large form, but in order to make it user friendly, and make it edible the contents of a routine are stored locally in the creation and editing process. Once they are submitted or saved the local storage object is what is sent to the database, rather than individual form fields for each week and or day. This also makes it easy for the editing of routines since when it comes time to edit; the server creates an object of the complete routine which is sent to the form to be stored locally. Because all the logic already is there the forms are generated in the client side.
